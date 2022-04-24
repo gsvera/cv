@@ -1,0 +1,84 @@
+
+:root{
+    --c-gris: #6A6D6C;
+    --c-gris-claro: #E5E5E5 ;
+    --c-negro: #2E3130;
+    --c-azul: #115DAD;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-gray{
+    background-color: var(--c-gris);
+    min-height: 100vh;
+}
+.bg-dark{
+    background-color: var(--c-negro);
+    width: 100%;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.img-perfil{
+    background-image: url(/img/perfil-copia.jpg);
+    background-size:cover;
+    background-position-y: 25%;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.caja-negra{
+    background-color: var(--c-negro);
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+.caja-gris{
+    background-color: var(--c-gris);
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 5px 0;
+    width: 350px;
+}
+.bg-white{
+    background-color: white;
+}
+
+.caja-descripcion{
+    width: 70%;
+    margin: 50px auto 0;
+    border-radius: 5px;
+    box-shadow: 3px 7px 5px 4px rgba(0, 0, 0, 0.5);
+    padding: 25px 40px;
+}
+
+.skills{
+    width: 30%;
+    margin: 0 15px;
+}
+
+.skill-head{
+    background-color: var(--c-azul);
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    color:white;
+    padding: 10px 0;
+}
+.skill-body{
+    background-color: var(--c-gris-claro);
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+
+.none-dot{
+    list-style: none;
+}
